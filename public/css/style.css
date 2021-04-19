@@ -229,15 +229,19 @@ html, body{ height: 100%; }
  }
 
 #status  {
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     background-image: url(../images/loader-animation.gif);
-     background-repeat: no-repeat;
-     background-position: center;
-     margin: -100px 0 0 -100px;
+     width: 250px;
+     height: 250px;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+     background-image: url(../images/splash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
  }
 
 
