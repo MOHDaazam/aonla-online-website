@@ -314,7 +314,7 @@ html, body{ height: 100%; }
 	position:relative;
 	-webkit-transition: color 0.4s;
     transition: color 0.4s;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
 }
 
@@ -441,8 +441,8 @@ html, body{ height: 100%; }
     letter-spacing: 1.5px;
     position: relative;
     font-weight:bold;
-    margin-top: 250px;
-    margin-bottom:40px;
+    margin-top: 32%;
+    margin-bottom:10%;
     display: inline-block;
 	font-size: 64px;
     line-height: 100px;
@@ -464,10 +464,7 @@ html, body{ height: 100%; }
 	font-size:18px;
 	color:#ccc;
 	padding-bottom:35px;
-
-    margin-top: 30px;
-    text-align: center;
-
+	margin-top:10%;
 }
 
 .book-btn a{
@@ -643,7 +640,6 @@ html, body{ height: 100%; }
 	font-size:52px;
 	font-family: 'Open Sans';
 	font-weight: bold;
-	letter-spacing:2px;
 }
 
 .about-images {
@@ -1619,7 +1615,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     letter-spacing: 0.96px;
     margin-bottom: 22px;
     font-family: 'Open Sans';
-	font-size: 45px;
+	font-size: 52px;
 }
 
 .footer-news p {
